@@ -5,7 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.TextView;
+/** 
 
+*   @author Leonardo Soares Santos
+*RA 816114026 
+
+*/
 public class DisplayMessageActivity extends AppCompatActivity {
 
     @Override
