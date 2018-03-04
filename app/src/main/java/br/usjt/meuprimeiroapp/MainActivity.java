@@ -7,7 +7,12 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+/** 
 
+*   @author Leonardo Soares Santos
+*RA 816114026 
+
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +20,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public final static String EXTRA_MESSAGE =
             "br.usjt.meuprimeiroapp.MESSAGE";
+/** 
 
+*   @author Leonardo Soares Santos
+*RA 816114026 
+
+*/
     public void sendMessage(View view){
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText=(EditText) findViewById(R.id.edit_message);
